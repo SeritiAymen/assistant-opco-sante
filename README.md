@@ -28,3 +28,4 @@ py src/main.py
 
 - Cellules fusionnées : les cellules couvertes contiennent `None`.
 - Les notes signalées par `*` sont séparées des tableaux.
+- Le schéma des contributions de la page 7 (SSSMS) est extrait dans le désordre.
