@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Q1",
+    "sector" : null,
+    "question": "Quel est le montant maximal pris en charge par l'OPCO pour les frais de premier équipement dans le cadre d'un contrat d'apprentissage ?",
+    "expected_chunks": ["SSSMS-p1-1", "HP-p1-1", "SPSTI-p1-1", "Hors-CC-p1-1"],
+    "expected_answer": "500 € maximum"
+  },
+  {
+    "id": "Q2",
+    "sector" : "SSSMS",
+    "question": "Quel est le pourcentage du minimum conventionnel appliqué pour un apprenti de 21 à 25 ans en 2e année d’exécution du contrat dans le secteur SSSMS ?",
+    "expected_chunks": ["SSSMS-p2-t1"],
+    "expected_answer": "75 % du minimum conventionnel de l’emploi occupé sans que celui-ci soit inférieur à 75 % du SMIC"
+  },
+  {
+    "id": "Q3",
+    "sector" : null,
+    "question": "Quel est le plafond de remboursement pour une nuit d’hôtel (petit déjeuner inclus) si le lieu de stage se situe à Paris ?",
+    "expected_chunks": ["SPSTI-p7-1", "SSSMS-p6-1", "HP-p6-1", "Hors-CC-p6-1"],
+    "expected_answer": "170 €"
+  },
+  {
+    "id": "Q4",
+    "sector" : "Hors CC",
+    "question": "Quel est le pourcentage du SMIC appliqué pour un contrat de professionnalisation d'un jeune de 21 à 25 ans titulaire d'un titre ou diplôme professionnel supérieur au bac hors champ conventionnel ?",
+    "expected_chunks": ["Hors-CC-p2-t2"],
+    "expected_answer": "80 % du SMIC"
+  },
+  {
+    "id": "Q5",
+    "sector" : "SPSTI",
+    "question": "Quel est l'abondement prévu pour les collaborateurs médecins et médecins PAE dans la branche SPSTI ?",
+    "expected_chunks": ["SPSTI-p6-1"],
+    "expected_answer": "Abondement à hauteur de 1500 € maximum / formation / stagiaire / an"
+  }
+]
